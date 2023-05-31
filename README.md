@@ -1,1 +1,1 @@
-This repo contains my GO LANG Programming learning and projects
+This repo contains my GO LANG learning and projects
