@@ -14,12 +14,24 @@ func main() {
 	fmt.Println("Get your ticket here to attend")
 	
 
-	var userName string // Ask users for their name
+	var firstName string // Ask users for their fistname
+	var lastName string // Ask users for their lastname
+	var email string // Ask users for their email
 	var userTickets int // Displays how many tickets the user bought
 
-	userName = "Allan"
-	userTickets = 2
+	// Ask User for Input
+	fmt.Println("Enter your first name: ")
+	fmt.Scan(&firstName)
 
-	fmt.Printf("User %v booked %v tickets.\n", userName, userTickets)
+	fmt.Println("Enter your last name: ")
+	fmt.Scan(&lastName)
+
+	fmt.Println("Enter your email address: ")
+	fmt.Scan(&email)
+
+	fmt.Println("Enter number of tickets: ")
+	fmt.Scan(&userTickets)
+
+	fmt.Printf("Thank you %v %v for booking %v tickets. You will recieve a confirmation email at %v\n", firstName, lastName, userTickets, email)
 
 }
