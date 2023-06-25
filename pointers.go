@@ -3,10 +3,11 @@ package main
 import "fmt"
 
 func main (){
+	x := 44
 
-	x := 45
-
-	fmt.Println(x)
-	fmt.Println(&x) // & points to X
-
+	valueChange(&x) // & points to X
+	fmt.Println(x) 
+}
+func valueChange (x *int){
+	*x = 69
 }
