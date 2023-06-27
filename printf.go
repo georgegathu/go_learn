@@ -10,4 +10,5 @@ func main () {
 	fmt.Println(name + " is a nice place")
 
 	fmt.Printf("%f \n", pi)
+	fmt.Printf("%T \n", pi)
 }
